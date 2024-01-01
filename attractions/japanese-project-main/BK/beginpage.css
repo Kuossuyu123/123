@@ -816,7 +816,7 @@ hr {
         width: 45%;
         /*width: 200px;*/
         /*height: 300px;*/
-        height: 40%;
+        height: 37%;
         box-sizing: border-box;
         margin: 0%;
       }
@@ -838,7 +838,7 @@ hr {
         font-size: 45px;
         border-bottom: 4px solid black;
         font-weight: 800;
-        /*margin-bottom: 10px;*/
+        margin-bottom: -10px;
       }
     
     
@@ -860,7 +860,7 @@ hr {
     }
     
     .sec-3 .inner-card .col:nth-child(2){
-      padding-left: 11%;
+      padding-left: 12%;
     }
     .sec-3 .inner-card .col:nth-child(3){
       padding-left:4%;
