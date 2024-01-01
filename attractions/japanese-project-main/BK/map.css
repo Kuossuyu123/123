@@ -99,3 +99,23 @@
   padding: 10px;
 }
 /* ////////////////////////////////////// */
+@media (max-width: 767px){
+    .section-img img{
+        display:none
+    }
+    
+    .navbar{
+        margin-left: auto; 
+    }
+    .style2 {
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        max-width: 900px; /* Set a maximum width for larger screens */
+        width: 100%; /* Take full width on smaller screens */
+        aspect-ratio: 3/2;
+        text-align: left;
+        border: 5px grey solid;
+        padding: 40px;
+    }
+}
