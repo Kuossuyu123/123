@@ -970,7 +970,8 @@ hr {
 .media-info li:nth-child(2),.media-info li:nth-child(4){
   padding-left: 0;
 }
-.custom-btn span {
-  font-size: 16px; 
-  }
+.card .card-content h2 {
+  font-size: 40px !important;
+  font-weight: 900;
+}
     }
