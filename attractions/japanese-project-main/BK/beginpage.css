@@ -816,7 +816,7 @@ hr {
         width: 45%;
         /*width: 200px;*/
         /*height: 300px;*/
-        height: 35%;
+        height: 40%;
         box-sizing: border-box;
         margin: 0%;
       }
@@ -956,7 +956,7 @@ hr {
 }
 .media-info{
   width: 400px;
-  margin-left: 130px;
+  margin-left: 150px;
   transform: translateY(-5%);
 }
 .media-info li{ 
