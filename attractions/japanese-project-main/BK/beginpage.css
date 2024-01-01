@@ -824,11 +824,13 @@ hr {
       
 
       .sec-3 .inner-card .row{
+       
         display: flex;
         flex-direction: column; /* 將項目在主軸方向上垂直排列 */
         align-items: center; /* 如果需要，可將項目在交叉軸方向上居中對齊 */
+        
       }
-      ,,
+      
       .sec-3 .inner-card h1{
         background-color: #31c3d9;
         width: 50%;
@@ -836,8 +838,9 @@ hr {
         font-size: 45px;
         border-bottom: 4px solid black;
         font-weight: 800;
-        margin-bottom: -10px;
+        /*margin-bottom: 10px;*/
       }
+    
     
     /* 在您的CSS檔案中添加這個樣式 */
     
@@ -860,7 +863,7 @@ hr {
       padding-left: 55px;
     }
     .sec-3 .inner-card .col:nth-child(3){
-      padding-left: 30px;
+      padding-left:15px;
     }
     .sec-3 .inner-card .col img{
        width: 150px ;
@@ -882,6 +885,7 @@ hr {
        font-weight: 800;
        padding: 6px;    
      }
+    
     
     
     .sec-4 .inner-card {
