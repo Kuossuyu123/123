@@ -216,3 +216,31 @@ font-weight: bold;
               animation: spin3 3s infinite linear;
   }
   /* //////////////////////////////////////////// */
+  
+.navbar-toggler:hover {
+  background-color: #8bacef; /* 替換成您想要的顏色碼 */
+  border-color: #7ca1ec; /* 替換成您想要的顏色碼 */
+}
+
+@media (max-width: 767px){
+  .section-img img{
+    display: none !important;
+}
+.navbar{
+  margin-left: auto; 
+}
+.navbar-toggler:focus {
+  outline: none;
+  box-shadow: none;
+}
+.download {
+  margin-left: 50px;
+}
+.section-title .card {
+  margin-left: 50px;
+  width: 85%;
+}
+.imgstyle img {
+  width: 10%;  
+}
+}
