@@ -1,7 +1,3 @@
-
-
-
-
 .section-img{
     position: relative;
     width: 100%;
@@ -183,3 +179,30 @@ background-image: linear-gradient(315deg, #7f2ab4 0%, #5135bf 74%);
   outline: none;
 }
 /*  */
+
+.navbar-toggler:hover {
+  background-color: #923e1d; /* 替換成您想要的顏色碼 */
+  border-color: #fa9f7b; /* 替換成您想要的顏色碼 */
+}
+@media (max-width: 767px){
+  .section-img img{
+    display: none !important;
+}
+.navbar{
+  margin-left: auto; 
+}
+.navbar-toggler:focus {
+  outline: none;
+  box-shadow: none;
+}
+.download {
+  margin-left: 50px;
+}
+.section-title .card {
+  margin-left: 41px;
+  width: 85%;
+}
+.style2 {
+  width: 100%;
+}
+}
