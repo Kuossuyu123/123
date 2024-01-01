@@ -130,10 +130,10 @@ margin-top: 80px;
   }
 @media (max-width: 767px){
     .section-img img{
-        display:none
+        display:none  !important;
     }
     .navbar{
-        margin-left: auto; 
+        margin-left: auto  !important; 
     }
     
 /* 内容容器样式 */
