@@ -956,11 +956,11 @@ hr {
 }
 .media-info{
   width: 400px;
-  margin-left: 120px;
+  margin-left: 130px;
   transform: translateY(-5%);
 }
 .media-info li{ 
-  font-size: 4em;
+  font-size: 3em;
   margin-top: 40px;
 }
 
