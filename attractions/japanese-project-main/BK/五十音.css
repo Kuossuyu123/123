@@ -120,3 +120,47 @@ margin-top: 80px;
     background-color: rgb(6, 95, 159);
 }
 
+.navbar-toggler:hover {
+    background-color: #53495c !important; /* 替換成您想要的顏色碼 */
+    border-color: #7f7588 !important; /* 替換成您想要的顏色碼 */
+}
+.navbar-toggler:focus {
+    outline: none;
+    box-shadow: none;
+  }
+@media (max-width: 767px){
+    .section-img img{
+        display:none
+    }
+    .navbar{
+        margin-left: auto; 
+    }
+    
+/* 内容容器样式 */
+.content {
+    width: 95%;
+    height: auto;
+    padding-left: 0px;    
+}
+
+
+.card-content{  /*字框*/
+  width: 60%;
+}
+.card-content h1{
+  padding: 10px;
+  font-size: 250%;   
+}
+.back-card.card-50 img {  
+    width: 100%; 
+    height: auto; 
+}
+.back-card.card-ga img {
+    max-width: 100%; 
+    height: auto; 
+}
+.back-card.card-ya img {
+    max-width: 100%; 
+    height: auto; 
+    }
+}
