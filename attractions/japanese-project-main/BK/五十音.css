@@ -138,9 +138,10 @@ margin-top: 80px;
     
 /* 内容容器样式 */
 .content {
-    width: 95%;
+    width: 95% !important;
     height: auto;
-    padding-left: 0px;    
+    padding-left: 0px !important;  
+      
 }
 
 
