@@ -797,8 +797,7 @@ hr {
     
 
 
-   
-    @media (max-width: 700px) {
+    @media (max-width: 767px) {
     .backimgsec.p0,.backimgsec.p1,.backimgsec.p2,               /*底圖*/
     .backimgsec.p3 {display: none;}
     
@@ -813,14 +812,17 @@ hr {
         align-items: center;
       }
     
-    .menu-card .card {                                          /*卡片呈現方式*/
+    .menu-card .card {                                        /*卡片呈現方式*/
         width: 45%;
-        width: 200px;
-        height: 300px;
+        /*width: 200px;*/
+        /*height: 300px;*/
+        height: 40%;
         box-sizing: border-box;
         margin: 0%;
       }
       
+      
+
       .sec-3 .inner-card .row{
        
         display: flex;
@@ -836,7 +838,7 @@ hr {
         font-size: 45px;
         border-bottom: 4px solid black;
         font-weight: 800;
-        margin-bottom: -10px;
+        /*margin-bottom: 10px;*/
       }
     
     
@@ -855,15 +857,14 @@ hr {
       display: flex;
       flex-direction: row; /* 將內部元素排列為水平方向 */
       align-items: center;
-      
-    }
-    .sec-3 .inner-card .col:nth-child(1){
-      padding-left: 15px;
-    }
-    .sec-3 .inner-card .col:nth-child(2){
-      padding-left: 47px;
     }
     
+    .sec-3 .inner-card .col:nth-child(2){
+      padding-left: 11%;
+    }
+    .sec-3 .inner-card .col:nth-child(3){
+      padding-left:4%;
+    }
     .sec-3 .inner-card .col img{
        width: 150px ;
        height: 135px ;
@@ -909,9 +910,10 @@ hr {
       background: rgb(255, 255, 255, 0.1);
       backdrop-filter: blur(20px);
       padding: 20px;
-      max-width: 350px;
-      min-height: 400px;
-      max-height: 400px;
+      /*max-width: 350px;*/
+      min-height: 425px;
+      max-height: 425px;
+      max-width: 75%;
       color: rgba(76, 18, 90, 0.759);
       border: 1px solid rgba(255, 255, 255, 0.1);
       border-radius: 10px;
@@ -969,5 +971,3 @@ hr {
   padding-left: 0;
 }
     }
-    
-    
