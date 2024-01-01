@@ -863,7 +863,7 @@ hr {
       padding-left: 60px;
     }
     .sec-3 .inner-card .col:nth-child(3){
-      padding-left:10px;
+      padding-left: 15px;
     }
     .sec-3 .inner-card .col img{
        width: 150px ;
@@ -956,7 +956,7 @@ hr {
 }
 .media-info{
   width: 400px;
-  margin-left: 195px;
+  margin-left: 200px;
   transform: translateY(-5%);
 }
 .media-info li{ 
