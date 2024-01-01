@@ -140,11 +140,9 @@ margin-top: 80px;
 .content {
     width: 95% !important;
     height: auto;
-    padding-left: 0px !important;  
-      
+    padding-left: 0px !important;    
 }
-
-
+ 
 .card-content{  /*字框*/
   width: 60%;
 }
