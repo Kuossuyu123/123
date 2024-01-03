@@ -233,6 +233,21 @@ font-weight: bold;
   outline: none;
   box-shadow: none;
 }
+
+.content {
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;   
+}
+.title {
+  font-size: 300%!important;
+}
+
+.section-title .card{
+height: auto;
+font-size: 100%;
+margin-top: 10%;
+}
 .download {
   margin-left: 50px;
 }
@@ -241,16 +256,20 @@ font-weight: bold;
   margin-right: auto;
   width: 75%;
 }
-.imgstyle{  
-  min-width: 100%;
-}
-.imgstyle img {
- 
- min-width: 100%;
-}
+
 .btn-voc{ 
-  margin: 3%;
+  margin: 2%;
   
 }
-
+.btn-voc{ 
+  font-weight: 900;
+    font-size: 20px;
+      width: 40px;
+      height: 40px;
+     
+}
+td {
+  word-wrap: break-word; /* 允许长单词换行 */
+  overflow-wrap: break-word; /* 与 word-wrap 一起使用，提高兼容性 */
+}
 }
