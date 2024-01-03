@@ -76,6 +76,7 @@
 }
 .section-title h1{
  text-align: center;
+ 
   color: rgb(106, 3, 129);
     font-weight: 800;
     text-decoration-skip: space;
@@ -98,17 +99,3 @@
   padding: 10px;
 }
 /* ////////////////////////////////////// */
-
-.navbar-toggler:hover {
-    background-color: #5b3092; /* 替換成您想要的顏色碼 */
-    border-color: #d66eeb; /* 替換成您想要的顏色碼 */
-}
-@media (max-width: 767px){
-    .section-img img{
-        display:none
-    }
-    
-    .navbar{
-        margin-left: auto; 
-    }   
-    }
