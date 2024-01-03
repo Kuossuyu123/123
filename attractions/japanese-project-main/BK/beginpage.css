@@ -785,7 +785,6 @@ hr {
     }
     
 
-
     @media (max-width: 767px) {
     .backimgsec.p0,.backimgsec.p1,.backimgsec.p2,               /*底圖*/
     .backimgsec.p3 {display: none;}
@@ -815,8 +814,6 @@ hr {
         font-weight: 100%;
         margin-left: 5%;
       }
-
-
       .sec-3 .inner-card .row{  /*3的排列*/
         display: flex;
         flex-direction: column; 
@@ -871,9 +868,6 @@ hr {
        padding: 6px;    
      }
     
-    
-    
-    
     .sec-4 .inner-card {
       font-size: 50%;
       color: rgb(250, 194, 240);
@@ -927,10 +921,6 @@ hr {
       margin-bottom: 5px;
       margin-top: 5px;
     }
-
-
-
-
     .sec-5 .inner-card .image{
       display: none;
     }
@@ -970,7 +960,3 @@ hr {
   font-size: 400%;
 }
 }
-
-
-
-
