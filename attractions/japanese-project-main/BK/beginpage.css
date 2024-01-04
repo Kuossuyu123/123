@@ -842,10 +842,10 @@ hr {
     }
     
     .sec-3 .inner-card .col:nth-child(2){
-      padding-left: 35px;
+      padding-left: 32;
     }
     .sec-3 .inner-card .col:nth-child(3){
-      padding-left:8px;
+      padding-left:7px;
     }
     .sec-3 .inner-card .col img{
        width: 45% ;
