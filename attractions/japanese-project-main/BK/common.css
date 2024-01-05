@@ -277,13 +277,13 @@ margin-top: 10%;
   width: 40px !important;
   height: 40px !important;
   background-size: 50px 50px;
-  border: 3px  #985bc6 solid !important;
-  box-shadow: 0px 0px 3px  #985bc6 !important;
+  border: 3px  #771cbd solid !important;
+  box-shadow: 0px 0px 3px #771cbd!important;
   transform: translateY(0%);
   }
   .back-top i {
     font-size: 20px;
-    color:  #985bc6; 
+    color:  #771cbd; 
 }
 
 }
