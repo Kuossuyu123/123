@@ -248,7 +248,7 @@ height: auto;
 font-size: 100%;
 margin-top: 10%;
 }
-download {
+.download {
   margin-left: 50px;
   font-size: 100%;
   margin: 15%;
@@ -269,9 +269,5 @@ download {
       width: 40px;
       height: 40px;
      
-}
-td {
-  word-wrap: break-word; /* 允许长单词换行 */
-  overflow-wrap: break-word; /* 与 word-wrap 一起使用，提高兼容性 */
 }
 }
