@@ -166,11 +166,11 @@ table {
   width: 100%; 
 }
 tr{
-  font-size: 75%;
+  font-size: 90%;
 }
 td a.btn {
   padding: 5px; 
-  font-size: 70%;  
+  font-size: 85%;  
 }
 
 /******/
@@ -179,4 +179,5 @@ td a.btn {
   min-width: 100%;
   padding: 6px;
 }
+
 }
