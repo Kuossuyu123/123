@@ -262,18 +262,5 @@ width: 20% !important;
 height: 100%;
 
 }
-.back-top {
-  bottom: 1%;
-  right: 1%;
-  width: 40px;
-  height: 40px;
-  background-size: 50px 50px;
-  border: 3px #e166ac solid;
-  box-shadow: 0px 0px 3px #e166ac ;
-  transform: translateY(0%);
-  }
-  .back-top i {
-    font-size: 20px;
-    color: #e166ac; 
-}
+
 }
