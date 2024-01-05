@@ -252,13 +252,12 @@ mark{
 
 .section-title .card{
 height: auto;
-font-size: 100%;
+font-size: 115%;
 margin-top: 10%;
 }
 .section-title .card button{
-margin: 2%;
+margin: 3%;
 }
-
 
 /* ////////////// */
 .custom-btn {
