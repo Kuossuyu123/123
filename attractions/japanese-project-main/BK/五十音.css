@@ -177,8 +177,8 @@ margin-top: 80px;
     .back-top {
         bottom: 1%;
         right: 1%;
-        width: 40px;
-        height: 40px;
+        width: 40px !important;
+        height: 40px !important;
         background-size: 50px 50px;
         border: 3px #66b6e1 solid !important;
         box-shadow: 0px 0px 3px #66b6e1 !important;
