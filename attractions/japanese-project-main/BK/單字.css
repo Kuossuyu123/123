@@ -166,16 +166,17 @@ table {
   width: 100%; 
 }
 tr{
-  font-size: 90%;
+  font-size: 75%;
 }
 td a.btn {
-  padding: 10px; 
-  font-size: 90%;  
+  padding: 5px; 
+  font-size: 70%;  
 }
 
+/******/
 .imgstyle {
   max-width: 70%;
   min-width: 100%;
-  padding: 5%;
+  padding: 6px;
 }
 }
