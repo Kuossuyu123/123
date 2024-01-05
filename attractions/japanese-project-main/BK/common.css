@@ -248,8 +248,10 @@ height: auto;
 font-size: 100%;
 margin-top: 10%;
 }
-.download {
+download {
   margin-left: 50px;
+  font-size: 100%;
+  margin: 15%;
 }
 .section-title .card {
   margin-left: auto;
