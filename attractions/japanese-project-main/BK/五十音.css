@@ -173,18 +173,5 @@ margin-top: 80px;
     max-width: 100%; 
     height: auto; 
     }   
-    .back-top {
-        bottom: 1%;
-        right: 1%;
-        width: 40px !important;
-        height: 40px !important;
-        background-size: 50px 50px;
-        border: 3px #ffffff solid !important;
-        box-shadow: 0px 0px 3px #ffffff !important;
-        transform: translateY(0%);
-        }
-        .back-top i {
-          font-size: 20px;
-          color: #ffffff !important; 
-      }
+   
 }
