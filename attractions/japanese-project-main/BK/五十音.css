@@ -158,13 +158,13 @@ margin-top: 80px;
   .card-content h1{
     font-size: 100% !important;   
 }
-p {
-    font-weight: bold;
+
+.card p {
+   font-weight: bold;
     font-size: 5 px !important;
      margin-top: 0px; 
      margin-bottom: 0px; 
 }
-
 
 .back-card.card-50 img {  
     width: 100%; 
