@@ -167,6 +167,7 @@ table {
 }
 tr{
   font-size: 90%;
+  vertical-align: middle;
 }
 td a.btn {
   padding: 5px; 
