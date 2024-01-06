@@ -230,18 +230,18 @@ h2{
 h5{
   font-weight: bold;
   color: grey;
-  font-size: 80%;
+  font-size: 75%;
 }
 p{
-  font-size: 80%;
+  font-size: 75%;
 }
 li{
-  font-size: 80%;
+  font-size: 75%;
 }
 mark{
   color: #ff0000;
   font-style: italic;
-  font-size: 80%;
+  font-size: 75%;
 }
 /* ///////////////// */
 
