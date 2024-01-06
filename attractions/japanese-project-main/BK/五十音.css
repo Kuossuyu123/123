@@ -140,14 +140,15 @@ margin-top: 80px;
 .content {
     margin-left: auto;
     margin-right: auto;
-    width: 100%;   
+    width: 90%;   
 }
 
 .title {
     font-size: 300%!important;
 }
 .card p {
-    font-size: 70%;
+    font-size: 72.5%;
+    vertical-align: middle;
 }
 .download {
     font-size: 100%;
