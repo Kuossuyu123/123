@@ -148,7 +148,7 @@ margin-top: 80px;
 }
 
  p {
-     font-size: 15px !important;
+     font-size: 15 px !important;
      margin-top: 0px; 
      margin-bottom: 0px; 
 }
@@ -177,5 +177,7 @@ margin-top: 80px;
     max-width: 100%; 
     height: auto; 
     }   
-    
+    nav{
+        width:100%
+        }
 }
