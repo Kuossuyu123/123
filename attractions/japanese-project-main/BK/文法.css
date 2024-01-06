@@ -217,11 +217,11 @@ background-image: linear-gradient(315deg, #7f2ab4 0%, #5135bf 74%);
 th{
   background-color:rgb(216, 226, 220);
   text-align: center;
-  font-size: 75% ;
+  font-size: 70% ;
 }
 td{
   background-color: rgb(255, 249, 248);
-  font-size: 75% ;
+  font-size: 70% ;
 }
 h2{
   font-weight: bolder;
@@ -231,6 +231,9 @@ h2{
 h5{
   font-weight: bold;
   color: grey;
+  font-size: 75%;
+}
+h3{
   font-size: 75%;
 }
 p{
