@@ -161,7 +161,7 @@ margin-top: 80px;
 
 .card p {
    font-weight: bold;
-    font-size: 100% !important;
+    font-size: 50% !important;
      margin-top: 0px; 
      margin-bottom: 0px; 
 }
@@ -171,7 +171,7 @@ margin-top: 80px;
     height: auto; 
 }
 .back-card.card-ga img {
-    max-width: 50%; 
+    max-width: 100%; 
     height: auto; 
 }
 .back-card.card-ya img {
