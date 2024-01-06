@@ -851,15 +851,13 @@ hr {
     .sec-3 .inner-card .col {
       flex-direction: row; /* 將內部元素排列為水平方向 */
     }
-     .sec-3 .inner-card .col:nth-child(1){
-      padding-left:0px;
+    .sec-3 .inner-card .col:nth-child(1){
+      padding-left: 10px;
     }
     .sec-3 .inner-card .col:nth-child(2){
-      padding-left: 0px;
+      padding-left: 27px;
     }
-      .sec-3 .inner-card .col:nth-child(3){
-      padding-left: 0px;
-    }
+    
     .sec-3 .inner-card .col img{
        width: 45% ;
        height: 45% ;
