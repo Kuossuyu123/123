@@ -968,18 +968,6 @@ hr {
 /*///////////////// 跳動標題 //////////////*/
 .bounce-text h1 {
   width:100%;
-  font-size: 400%;
+  font-size: 300%;
 }
 }
-@media(max-width: 767px) {
-  .style2 {
-    padding: 10px;
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-  }
-}
-
-
-
-
