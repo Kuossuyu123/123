@@ -214,7 +214,7 @@ background-image: linear-gradient(315deg, #7f2ab4 0%, #5135bf 74%);
   width: 100%;
 }
 tr{
-    text-align: center;
+    vertical-align: middle;
     font-size: 70% ;
 }
 h2{
