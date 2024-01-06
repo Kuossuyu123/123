@@ -962,12 +962,13 @@ hr {
 }
 .sec-1 .logoback{
  
-  width: 40%;
-  height: 40%;
+  width: 30%;
+  height: 30%;
 }
 /*///////////////// 跳動標題 //////////////*/
 .bounce-text h1 {
-  width:90%;
+  width:100%;
   font-size: 250%;
 }
+
 }
