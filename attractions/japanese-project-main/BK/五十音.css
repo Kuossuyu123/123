@@ -148,7 +148,10 @@ margin-top: 80px;
 }
 .card p {
     font-size: 2px !important;
-    vertical-align: middle !important;
+}
+ p {
+     margin-top: 0px; 
+     margin-bottom: 0px; 
 }
 .download {
     font-size: 100%;
