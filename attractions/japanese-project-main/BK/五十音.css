@@ -156,9 +156,9 @@ margin-top: 80px;
   }
 
   .card-content h1{
-    font-size: 10% !important;   
+    font-size: 100% !important;   
 }
- .card-content p {
+p {
     font-weight: bold;
     font-size: 5 px !important;
      margin-top: 0px; 
