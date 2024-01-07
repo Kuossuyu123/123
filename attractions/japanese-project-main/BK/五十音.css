@@ -129,41 +129,45 @@ margin-top: 80px;
     box-shadow: none;
   }
 @media (max-width: 767px){
-    .section-img img{
+    .section-img img{                /*關閉圖片*/
         display:none
-    }
+    }               
+    nav{                             /*選單按鈕*/
+        width:100%
+        }
     .navbar{
         margin-left: auto; 
     }
-    
-/* 内容容器样式 */
+    .navbar-toggler:hover {
+        background-color: #53495c !important; 
+        border-color: #7f7588 !important; 
+    }
+    .navbar-toggler:focus {
+        outline: none;
+        box-shadow: none;
+      }
 .content {
     margin-left: auto;
     margin-right: auto;
     width: 90%;   
 }
-
-.title {
+.title {                              /*大標題*/
     font-size: 300%!important;
 }
-
+.card p {                             /*內容*/
+    font-weight: bold;
+     font-size: 12px !important;
+      margin-top: 0px; 
+      margin-bottom: 0px; 
+ }
 .download {
     font-size: 100%;
 }
-
-.card-content{  /*字框*/
+.card-content{                       /*圖片標題框*/
     width: 60%;
-  }
-
-  .card-content h1{
+  } 
+.card-content h1{                    /*圖片標題大小*/
     font-size: 150% !important;   
-}
-
-.card p {
-   font-weight: bold;
-    font-size: 12px !important;
-     margin-top: 0px; 
-     margin-bottom: 0px; 
 }
 
 .back-card.card-50 img {  
@@ -177,8 +181,5 @@ margin-top: 80px;
 .back-card.card-ya img {
     max-width: 100%; 
     height: auto; 
-    }   
-    nav{
-        width:100%
-        }
+    }      
 }
