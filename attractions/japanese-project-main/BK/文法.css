@@ -185,88 +185,83 @@ background-image: linear-gradient(315deg, #7f2ab4 0%, #5135bf 74%);
   border-color: #fa9f7b; /* 替換成您想要的顏色碼 */
 }
 @media (max-width: 767px){
-  .section-img img{
-    display: none !important;
-}
-.navbar{
-  margin-left: auto; 
-}
-.navbar-toggler:focus {
-  outline: none;
-  box-shadow: none;
-}
-
-
-.content {
-  margin-left: auto;
-  margin-right: auto;
-  width: 100%;   
-}
-.title {
-  font-size: 300%!important;
-}
-.download {
-  font-size: 16px;
-  margin: 15%;
-}
-
-.style2 {
-  width: 100%;
-}
-tr{
-    text-align: center;
-    vertical-align: middle;
-    font-size: 60% ;
-}
-h2{
-  font-weight: bolder;
-  font-size: 100% ;
-}
-
-h5{
-  font-weight: bold;
-  color: grey;
-  font-size: 75%;
-}
-h3{
-  font-size: 75%;
-}
-p{
-  font-size: 75%;
-}
-li{
-  font-size: 75%;
-}
-mark{
-  color: #ff0000;
-  font-style: italic;
-  font-size: 85%;
-}
-
-/* ///////////////// */
-
-.section-title .card{
-height: auto;
-font-size: 65%;
-margin-top: 10%;
-}
-.section-title .card button{
-margin: 2%;
-}
-
-
-/* ////////////// */
-.custom-btn {
-width: 20% !important;
-height: 25px ;
-
-}
-    .section.course.course7 table {
+@media (max-width: 767px){
+    .section-img img{               /*關閉圖片*/
+        display: none !important;
+    }
+    .navbar{                        /*選單按鈕*/
+      margin-left: auto; 
+    }
+    .navbar-toggler:focus {
+      outline: none;
+      box-shadow: none;
+    }
+    .navbar-toggler:hover {
+      background-color: #923e1d; 
+      border-color: #fa9f7b; 
+    }
+    .content {
+      margin-left: auto;
+      margin-right: auto;
+      width: 100%;   
+    }
+    .title {
+      font-size: 300%!important;
+    }
+    .download {
+      font-size: 16px;
+      margin: 15%;
+    }
+    .style2 {
       width: 100%;
     }
-    .section.course.course7 table td {
-      width: 65%; 
-      padding: 1px;
-      text-align: center;
-}
-}
+    tr{
+        text-align: center;
+        vertical-align: middle;
+        font-size: 60% ;
+    }
+    h2{
+      font-weight: bolder;
+      font-size: 100% ;
+    }
+    h5{
+      font-weight: bold;
+      color: grey;
+      font-size: 75%;
+    }
+    h3{
+      font-size: 75%;
+    }
+    p{
+      font-size: 75%;
+    }
+    li{
+      font-size: 75%;
+    }
+    mark{
+      color: #ff0000;
+      font-style: italic;
+      font-size: 85%;
+    }
+    
+    .section-title .card{             /*按鈕底框*/
+    height: auto;
+    font-size: 65%;
+    margin-top: 10%;
+    }
+    .section-title .card button{      /*按鈕間距*/
+    margin: 2%;
+    }
+    .custom-btn {                     /*按鈕大小*/
+    width: 20% !important;
+    height: 25px ;
+    }
+        .section.course.course7 table { /*因為第七課會跑掉*/
+          width: 100%;                  /*所以在這改*/
+        }
+        .section.course.course7 table td {
+          width: 65%; 
+          padding: 1px;
+          text-align: center;
+    }
+    }
