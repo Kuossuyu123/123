@@ -327,52 +327,48 @@ color: #34a0a4;
 
 
 @media (max-width: 767px){
-    .section-img img{
+    .section-img img{           /*關閉圖片*/
         display:none;
     }
-    .navbar{
-        margin-left: auto; 
+    nav{                        /*選單按鈕*/
+        width:100%
+        }
+    .navbar-toggler {
+        border-color: #712796;
     }
-    .collapse.navbar-collapse#navbarNavDropdown {
-        width: 300px;     
-      }
-
-      .section-title h1{ /*大標題*/
+    
+    .navbar-toggler:hover {
+        background-color: #391668; 
+        border-color: #d66eeb; 
+    }
+      .section-title h1{              /*大標題*/
         font-size: 300%;
        }
-       .section-title .card{
+       .section-title .card{          /*按鈕字*/
         font-size: 100%;
-        
       }
-      .describe{ /*大的*/
+      .section-title .card-story{     /*按鈕框*/
+        width: 100%!important;      
+      }
+      .describe{ 
         font-size: 80%;
     }
     .readaloud{
         font-size: 80%;
     }
-      
       .content {
         margin-left: auto;
         margin-right: auto;
         width: 100% !important;   
-  }
-    
-      .story{         
+  }  
+      .story{                        /*大框框*/
           width: 95%;         
       }
       .story h3{
           font-size: 90%;
-
       }
       .story p{   
         font-size: 75%;
       }
-
-    .section-title .card-story{/*框*/
-        width: 100%!important;      
-      }
-      nav{
-        width:100%
-        }
 }
     
